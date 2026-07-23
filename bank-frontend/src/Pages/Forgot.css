@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.forgot-container{
+    min-height:100vh;
+    background:#0047bb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.forgot-card{
+    width:450px;
+    background:#f7f7f7;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.forgot-card h2{
+    text-align:center;
+    color:#555;
+    margin-bottom:15px;
+    font-weight:500;
+}
+
+.forgot-card p{
+    text-align:center;
+    color:#777;
+    margin-bottom:30px;
+    font-size:14px;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group input{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-bottom:2px solid #ccc;
+    background:transparent;
+    font-size:16px;
+    outline:none;
+}
+
+.input-group input:focus{
+    border-bottom:2px solid #0047ff;
+}
+
+.error{
+    color:red;
+    font-size:13px;
+    margin-top:5px;
+    display:block;
+}
+
+.submit-btn{
+    width:100%;
+    background:#0047ff;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.submit-btn:hover{
+    background:#0033cc;
+}
+
+.back-link{
+    text-align:center;
+    margin-top:20px;
+}
+
+.back-link a{
+    text-decoration:none;
+    color:#0047ff;
+    font-size:15px;
+}
+
+.back-link a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:500px){
+
+    .forgot-card{
+        width:95%;
+        padding:25px;
+    }
+
+}

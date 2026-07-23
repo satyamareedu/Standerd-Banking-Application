@@ -1,0 +1,77 @@
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f7fc;
+}
+
+/* Profile Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+/* Profile Card */
+.profile-card {
+  width: 450px;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Profile Heading */
+.profile-card h2 {
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+/* Profile Icon */
+.profile-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  background: #1e3a8a;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Profile Details */
+.profile-info {
+  text-align: left;
+}
+
+.profile-info p {
+  margin: 15px 0;
+  padding: 12px;
+  background: #f8f9ff;
+  border-radius: 10px;
+  font-size: 16px;
+  border-left: 5px solid #1e3a8a;
+}
+
+.profile-info strong {
+  color: #1e3a8a;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .profile-card {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .profile-card h2 {
+    font-size: 24px;
+  }
+}

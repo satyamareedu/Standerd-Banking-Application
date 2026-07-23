@@ -1,0 +1,93 @@
+/* Page Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f7fc;
+}
+
+/* Main Container */
+.accounts-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Heading */
+.accounts-container h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Table Card */
+.table-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+/* Table */
+.accounts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Header */
+.accounts-table thead {
+  background: #1e3a8a;
+  color: white;
+}
+
+.accounts-table th {
+  padding: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Rows */
+.accounts-table td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover Effect */
+.accounts-table tbody tr:hover {
+  background-color: #f1f5ff;
+  transition: 0.3s;
+}
+
+/* Alternate Row Colors */
+.accounts-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* No Data Message */
+.no-data {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .accounts-container {
+    padding: 10px;
+  }
+
+  .accounts-container h2 {
+    font-size: 24px;
+  }
+
+  .accounts-table th,
+  .accounts-table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
